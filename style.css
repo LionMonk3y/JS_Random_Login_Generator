@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+}
+
+h1 {
+    padding: 20px;
+}
+
+#description {
+    margin: 50px;
+    font-size: 20px;
+}
+
+#generatorBlock {
+    display: flex;
+    justify-content: center;
+
+    width: 100vw;
+}
+
+button,
+#passSquare {
+    height: 70px;
+    font-size: 30px;
+    border: 5px solid brown;
+    background-color: white;
+}
+
+#passSquare {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-right: none;
+}
+
+button {
+    text-transform: uppercase;
+    padding: 0 50px;
+}
